@@ -29,7 +29,7 @@ print("Conectado al servidor")
 #Creamos un bucle para retener la conexion
 while True:
     #Instanciamos una entrada de datos para que el cliente pueda enviar mensajes
-    mens = raw_input("Mensaje desde Cliente a Servidor >> ")
+    mens = "Mensaje desde Cliente a Servidor >> "
  
     #Con el método send, enviamos el mensaje
     obj.send(mens)
